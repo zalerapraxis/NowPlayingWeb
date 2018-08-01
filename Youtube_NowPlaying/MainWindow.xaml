@@ -1,0 +1,24 @@
+﻿<Window x:Class="Youtube_NowPlaying.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Youtube_NowPlaying"
+        mc:Ignorable="d"
+        Title="Now Playing - Youtube" Height="182" Width="437">
+    <Grid>
+        <Label Content="Now Playing:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNowPlaying" HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="Not playing anything." Background="LightGray" VerticalAlignment="Top" Width="313" Margin="94,14,0,0"/>
+
+        <Label Content="Save location:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox x:Name="txtSaveLocation" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Margin="94,54,0,0"/>
+        <Button x:Name="btnBrowseSaveLocation" Content="Browse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" Margin="349,54,0,0" Height="20" Click="btnBrowseSaveLocation_Click"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="136,115,0,0" Click="btnStart_Click"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="216,115,0,0" Click="btnStop_Click"/>
+
+        <Label Content="Search for:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,76,0,0"/>
+        <TextBox x:Name="txtStringToSearch" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text=" - YouTube" VerticalAlignment="Top" Width="246" Margin="94,80,0,0"/>
+
+
+    </Grid>
+</Window>

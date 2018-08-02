@@ -66,7 +66,7 @@ namespace Youtube_NowPlaying
                 int length = GetWindowTextLength(windowHandle);
                 StringBuilder windowTitle = new StringBuilder(length + 1);
                 GetWindowText(windowHandle, windowTitle, windowTitle.Capacity);
-                if (windowTitle.ToString().ToUpper().Contains(txtStringToSearch.Text.ToUpper()))
+                if (windowTitle.ToString().ToUpper().Contains($"{txtStringToSearch.Text.ToUpper()} - GOOGLE CHROME"))
                 {
                     _youtubeWindowID = windowHandle;
                     break;

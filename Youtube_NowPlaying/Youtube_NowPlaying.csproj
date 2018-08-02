@@ -136,7 +136,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Youtube_NowPlaying_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -152,12 +151,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="play.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="play2.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="play3.ico" />
